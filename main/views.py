@@ -41,7 +41,7 @@ def chatterbox(request):
             print("=== This is the intent ===")
             print(intent)
             print("==")
-            
+
             # import pdb
             # pdb.set_trace()
             chat_log = ChatLogs.objects.create(
